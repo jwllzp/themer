@@ -1,0 +1,25 @@
+return function(c, _)
+	return {
+		OilDir = { fg = c.blue, bold = true },
+		OilDirIcon = { fg = c.blue },
+		OilDirHidden = { fg = c.comment, bold = true },
+		OilFile = { fg = c.fg },
+		OilFileHidden = { fg = c.comment },
+		OilHidden = { fg = c.comment },
+		OilLink = { fg = c.cyan },
+		OilLinkHidden = { fg = c.comment },
+		OilLinkTarget = { fg = c.comment, italic = true },
+		OilOrphanLink = { fg = c.red },
+		OilOrphanLinkTarget = { fg = c.red, italic = true },
+		OilSocket = { fg = c.magenta },
+		OilCreate = { fg = c.green, bold = true },
+		OilDelete = { fg = c.red, bold = true },
+		OilMove = { fg = c.yellow, bold = true },
+		OilCopy = { fg = c.cyan, bold = true },
+		OilChange = { fg = c.orange, bold = true },
+		OilRestore = { fg = c.green },
+		OilPurge = { fg = c.red },
+		OilTrash = { fg = c.red },
+		OilTrashSourcePath = { fg = c.comment },
+	}
+end
