@@ -23,6 +23,16 @@ Neovim themes all ship the same three things: a palette, a mapping from colors t
 }
 ```
 
+```lua
+-- vim.pack (built in, Neovim 0.12+)
+vim.pack.add({ "https://github.com/jwllzp/themer" })
+
+require("themer").setup({ highlights_variant = "semantic" })
+vim.cmd.colorscheme("themer")
+```
+
+Call `setup()` before `colorscheme`; options set afterwards are not applied until the scheme is loaded again.
+
 ## Configuration
 
 These are the defaults:
